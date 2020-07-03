@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="xsl/inventory-data.xsl" media="screen"?>
+<!DOCTYPE inventory_data>
+<InventoryData xml:lang="ru_RU">
+	<bios>
+		<vendor>American Megatrends Inc.</vendor>
+		<version>0501    </version>
+		<start_addr_seg format="hex">61440</start_addr_seg>
+		<release_date>03/03/2006</release_date>
+		<rom_size>524288</rom_size>
+	</bios>
+	<system>
+		<manufacturer>System manufacturer</manufacturer>
+		<product_name>System Product Name</product_name>
+		<version>System Version</version>
+		<serial_number>System Serial Number</serial_number>
+		<uuid>D4E42BA8-F0C8-DA11-8855-31A03F321EB4</uuid>
+		<sku_number/>
+		<family/>
+	</system>
+	<chassis>
+		<manufacturer>Chassis Manufacture</manufacturer>
+		<type>Desktop</type>
+		<version>Chassis Version</version>
+		<serial_number>Chassis Serial Number</serial_number>
+		<asset_tag>Asset-1234567890</asset_tag>
+	</chassis>
+	<processor index="0">
+		<socket>LGA 775</socket>
+		<manufacturer>Intel            </manufacturer>
+		<id format="hex">13829424153406476099</id>
+		<version>Intel(R) Pentium(R) 4 CPU 3.60GHz                   </version>
+		<serial_number>To Be Filled By O.E.M.</serial_number>
+		<asset_tag>To Be Filled By O.E.M.</asset_tag>
+		<part_number>To Be Filled By O.E.M.</part_number>
+	</processor>
+		<timestamp>2019-03-04T11:16:28MSK</timestamp>
+</InventoryData>
+
